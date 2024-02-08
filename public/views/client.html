@@ -49,17 +49,17 @@
 
         <!-- flatpickr  https://flatpickr.js.org/themes/ -->
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
+        <link rel="stylesheet" href="../css/flatpickr.min.css" />
         <link rel="stylesheet" href="https://npmcdn.com/flatpickr/dist/themes/airbnb.css" />
 
         <!--  pickr  https://github.com/simonwep/pickr -->
 
         <!-- 'classic' theme -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/classic.min.css" />
+        <link rel="stylesheet" href="../css/classic.min.css" />
         <!-- 'monolith' theme -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/monolith.min.css" />
+        <link rel="stylesheet" href="../css/monolith.min.css" />
         <!-- 'nano' theme -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/nano.min.css" />
+        <link rel="stylesheet" href="../css/nano.min.css" />
 
         <!-- JavaScripts -->
 
@@ -918,8 +918,8 @@ access to use this app.
         - https://simonwep.github.io/pickr/                                 (https://github.com/simonwep/pickr)
 
         -->
-        <script defer src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
-        <script defer src="https://rawgit.com/leizongmin/js-xss/master/dist/xss.js"></script>
+        <!-- <script defer src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+        <script defer src="../js/xss.js"></script>
         <script defer src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
         <script defer src="https://cdn.jsdelivr.net/npm/detectrtc@1.4.1/DetectRTC.min.js"></script>
         <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.8"></script>
@@ -928,12 +928,28 @@ access to use this app.
         <script defer src="https://cdn.jsdelivr.net/npm/emoji-mart@latest/dist/browser.js"></script>
         <script defer src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js"></script>
         <script defer src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
-        <!-- <script defer src="https://cdn.jsdelivr.net/npm/crypto-js@4.2.0/index.min.js"></script> -->
         <script defer src="https://unpkg.com/@popperjs/core@2"></script>
         <script defer src="https://unpkg.com/tippy.js@6"></script>
         <script defer src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
         <script defer src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
-        <script defer src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.es5.min.js"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.es5.min.js"></script> -->
+        <script defer src="../js/adapter-latest.js"></script>
+        <script defer src="../js/xss.js"></script>
+        <script defer src="../js/marked.min.js"></script>
+        <script defer src="../js/DetectRTC.min.js"></script>
+        <script defer src="../js/sweetalert2.all.min.js"></script> <!-- 注意：原始URL为sweetalert2@11.4.8，这里假设您下载的是sweetalert2.all.min.js -->
+        <script defer src="../js/fabric.min.js"></script>
+        <script defer src="../js/qrious.min.js"></script>
+        <script defer src="../js/browser.js"></script> <!-- emoji-mart 的 browser.js -->
+        <script defer src="../js/pdf.min.js"></script>
+        <script defer src="../js/crypto-js.min.js"></script>
+        <!-- 由于crypto-js@4.2.0/index.min.js是被注释的，如果您下载了该文件，请取消下一行的注释并确保文件名正确 -->
+        <!-- <script defer src="../js/index.min.js"></script> -->
+        <script defer src="../js/core.js"></script> <!-- @popperjs/core 的未指定版本文件名可能需要调整 -->
+        <script defer src="../js/tippy.js"></script> <!-- tippy.js 的未指定版本文件名可能需要调整 -->
+        <script defer src="../js/flatpickr.js"></script> <!-- flatpickr 的未指定版本文件名可能需要调整 -->
+        <script defer src="../js/pickr.min.js"></script>
+        <script defer src="../js/pickr.es5.min.js"></script>
         <script defer src="/socket.io/socket.io.js"></script>
         <script defer src="../js/localStorage.js"></script>
         <script defer src="../js/helpers.js"></script>
@@ -954,12 +970,12 @@ access to use this app.
             https://www.w3schools.com/howto/howto_google_translate.asp
         -->
 
-        <script>
+        <!-- <script>
             function googleTranslateElementInit() {
                 new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
             }
         </script>
-        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
 
         <!-- End Google Translate -->
     </body>
